@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
+
 :root {
   --color-nav: #4c1452;
   --color-bg: #fdead2;
@@ -7,15 +8,20 @@
 
 * {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: var(--color-bg);
 }
 
-header {
+.menu{
   display: flex;
-  background: var(--color-nav);
+  background-color: var(--color-nav);
+  justify-content: space-between;
+  height: 50px;
   width: 100%;
-  justify-content: center;
 }
+
+
